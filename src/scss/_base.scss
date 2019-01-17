@@ -12,15 +12,24 @@ body {
     background-color: #f1f1f1;
     
     .jumbotron {
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.jpg") ;
     margin: 0;
+    height: 50vh;
+    background-size: cover;
+    color: white;
+
     }
 
     .navbar {
-    border: 1px solid black;
+    background-color: #000000;
+    color: blue;
     }
 
 
+}
+.col-4{
+    width: 100px;
+    height:200px;
 }
 
 .card {
